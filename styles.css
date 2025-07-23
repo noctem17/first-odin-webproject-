@@ -124,3 +124,49 @@ div.emptybox {
     margin-left: auto;
     margin-right: 430px;
 }
+.lastbox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f9faf8;
+    padding: 100px;
+}
+.bluediv {
+    border-radius: 10px;
+    height: 130px;
+    width: 800px;
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+}
+#signuplast {
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: #3882f6;
+    border: #f9faf8 solid 2px;
+    color: white;
+}
+
+.lasttitle{
+    display: flex;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+
+}
+.lasttextomg {
+    display: flex;
+    color: white;
+}
+.footer{
+    background-color: #1f2937;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
