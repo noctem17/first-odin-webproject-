@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.firstGrayBox {
+    background-color: #1f2937;
+    padding: 50px;
+    padding-top: 10px;
+}
+.mainTitleAndList {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    display: flex;
+    height: 250px;
+    width: 525px;
+}
+.elementwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 66px;
+    padding-bottom: 50px;
+}
+.awesometitlediv {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 525px;
+}
+.bigtitle1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;    
+}
+.secondarytext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.titlelist {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+#firstbutton {
+    color: white;
+    padding: 10px;
+    background-color: #3882f6;
+    height: auto;
+    width: 100px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
