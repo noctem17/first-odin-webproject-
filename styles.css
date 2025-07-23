@@ -41,6 +41,7 @@ img {
 .secondarytext {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 10px;
 }
 
 .titlelist {
@@ -57,7 +58,7 @@ ul {
     padding: 10px;
     background-color: #3882f6;
     height: auto;
-    width: 100px;
+    width: 120px;
     border-radius: 7px;
     font-weight: bold;
 }
@@ -65,4 +66,61 @@ ul {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bolder;
+}
+div.emptybox {
+    border-radius: 11px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 4px, solid #3882f6
+    
+
+}
+.fatherofboxes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+.bigtitle2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+
+.subtextbox{
+    margin: 5px;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.greydiv {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    height: 450px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.quotetext {
+    width: 800px;
+    font-size: 36px;
+    font-family: light, italic;
+    color: #1f2937;
+}
+
+.undertextquote {
+    padding-top: 10px;
+    display: flex;
+    text-align: end;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: 430px;
 }
